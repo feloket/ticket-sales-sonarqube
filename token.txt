@@ -1,0 +1,3 @@
+sqp_3cc2af104b6386d78d4c4de377f25445522a3676
+
+docker run --rm --network=host -e SONAR_HOST_URL="http://localhost:9000" -e SONAR_TOKEN="sqp_3cc2af104b6386d78d4c4de377f25445522a3676" -v "${PWD}:/usr/src" sonarsource/sonar-scanner-cli "-Dsonar.projectBaseDir=/usr/src"
